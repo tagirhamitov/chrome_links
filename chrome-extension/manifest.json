@@ -1,0 +1,14 @@
+{
+    "name": "Chrome links",
+    "version": "1.0",
+    "description": "Nice link shortener for Chrome",
+    "background": {
+        "scripts": ["redirect.js"]
+    },
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "manifest_version": 2
+}
